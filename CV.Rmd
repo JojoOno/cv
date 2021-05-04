@@ -68,7 +68,7 @@ tribble(
          "Providing analytical, administrative and project focussed support and mentoring to PhD students.",
          "Using animal movement data to help refine estimates of collision risk between marine mammals and tidal turbines."),
    "Lecturer", "University of St Andrews", "St Andrews, Scotland", "Sep. 2019 - present", 
-    list("Guest lecturer in marine animal movement and spatial analysis - BL5110", "Develop and lead lab practicals on the use of R to quantify movement behaviour using telemetry data - BL5122"),
+    list("Guest lecturer in marine animal movement and spatial analysis - BL5110", "Develop and lead lab practicals on the use of R to quantify movement behaviour using telemetry data - BL5122", "Demonstrate for lab practicals on quantitative methods in ecology and GIS for ecologists - BL5110"),
   "Post-doctoral researcher", "University of St Andrews", "St Andrews, Scotland", "Jan. 2020 - Apr. 2020", 
     list("Supporting delivery of the Marine Scotland Scientific Support Programme through dissemination of spatial analysis to Scottish ministers",
          "Providing consultation on collisin risk and impact of operational tidal turbine arrays"),
