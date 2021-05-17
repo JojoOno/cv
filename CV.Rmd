@@ -93,7 +93,7 @@ For a complete list of publications and reports see [*my Google Scholar profile*
 tribble(
   ~ name, ~ journal, ~ date, ~type, ~ bib,
   "Quantifying the effects of tidal turbine array operations on the distribution of marine mammals: implications for collision risk and spatial    planning", "Renewable Energy", "~2021", "Journal Article", 
-  "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., Hastie, G. Renewable Energy. \\textit{in review}",
+  "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., Hastie, G. Renewable Energy. \\textit{in revision}",
   
     "Foraging in dynamic habitats: the importance of considering flow in animal movement analyses", "Functional Ecology", "~2021", "Journal Article", "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., O'Hara Muraye, R., Hastie, G. Functional Ecology. \\textit{in review}",
   
@@ -163,6 +163,56 @@ Experienced small-boat operator - RYA Power Boat level 2
 MCA approved sea-survival
 
 
+\faIcon{comments} Contributed presentations
+================================
+
+```{r pres}
+tribble(
+  ~ name, ~ title, ~ conference, ~year, ~ presentation,
+  
+  "Onoufriou, J., Russell, D.J.F, Thompson, D. Moss, S.E. & Hastie, G.", "Variable diving behaviour of seals in tidally energetic channels", "MASTS: Marine Alliance for Science and Technology forum. Online.", "2021", "Oral Presentation",
+  
+     "Onoufriou, J., Russell, D.J.F, Thompson, D. Moss, S.E. & Hastie, G.", "Quantifying the effects of tidal turbine array operations on the distribution of marine mammals: implications for collision risk ", "EIMR: Environmental Interactions of Marine Renewable Energy Technologies. Online.", "2020", "Oral Presentation",
+  
+   "Onoufriou, J., Russell, D.J.F, Thompson, D. Moss, S.E. & Hastie, G.", "Overt avoidance behaviour of seals in response to tidal turbine array operations", "ScotMER symposium, Marine Scotland. Online.", "2020", "Oral Presentation",
+  
+  "Onoufriou, J., Russel, D.J.F., Thompson, D., O’Hara Murray, R. Moss, S. & Hastie, G.", "Foraging in dynamic habitats: the importance of considering flow in animal movement analyses", "World Marine Mammal Conference. Barcelona, Spain.", "2019", "Speed talk",
+  
+  "Onoufriou, J., Russel, D.J.F., Thompson, D., O’Hara Murray, R. Moss, S. & Hastie, G.", "Foraging plasticity and extrinsic drivers of activity budgets in a tidally energetic system.", "SEECC 2019: Scottish Ecology, Environment and Conservation Conference. Glasgow, UK.", "2019", "Invited Talk",
+  
+  "Onoufriou, J., Brownlow, A., Moss, S., Hastie, G. & Thompson, D.", "Empirical determination of severe trauma in seals from collisions with tidal turbine blades.", "ScotMER symposium, Marine Scotland.", "2019", "Invited Talk",
+  
+  "Onoufriou, J., Brownlow, A., Moss, S., Hastie, G. & Thompson, D.", "Empirical determination of severe trauma in seals from collisions with tidal turbine blades.", "SIMC: Scotland’s International Marine Conference.", "2019", "Poster",
+  
+   "Onoufriou, J., Thompson, D., Brownlow, A., Sparling, C. & Hastie, G.", "Experimental determination of a mortality threshold for collisions between marine megafauna and tidal turbines.", "EIMR: Environmental Interactions of Marine Renewable Energy Technologies.", "2018", "Oral Presentation",
+  
+  "Onoufriou, J., Clair Evers, Dave Thompson, Andrew Brownlow & Gordon Hastie.", "Seal collision trials and fine-scale tracking around an operating turbine array.", "Workshop on environmental impacts of tidal energy industry: 22nd Biennial Conference for the Society of Marine Mammalogy. Halifax, NS", "2017", "Invited Talk",
+  
+   "Onoufriou, J., Brownlow, A., Moss, S., Hastie, G. & Thompson, D.", "Corkscrew seals: grey seal infanticide and cannabilism may indicate the cause of spiral lacerations in seals", "21st Biennial Conference for the Society of Marine Mammalogy. San Francisco, CA", "2015", "Workshop coordinator",
+  
+  "Onoufriou, J., Brownlow, A & Thompson, D. ", "Unravelling the mystery of corkscrew seals.", "UKIRSCSMM: UK and Ireland Student Chapter of the Society of Marine Mammalogy Conference. Bangor, UK", "2015", "Workshop coordinator",
+  
+  "Onoufriou, J., Fedak, M. & Thompson, D.", "A validated, step-wise approach to drift-dive classification using high resolution accelerometery", "20th Biennial Conference for the Society of Marine Mammalogy. Dunedin, NZ", "2013", "Oral Presentation"
+  
+ 
+  ) %>% 
+ 
+  detailed_entries(with = title, what = name, when = year, where = presentation, why = conference)
+
+```
 
 
 
+\faIcon{users} Students
+================================
+
+Supervised/advised 
+---------------------------------
+2020-21 Charlotte Findlay, PhD (advised)  
+2019-20 Tierney Carter, MSc (co-supervised)  
+2018-19 Laura Palmer, MSc (co-supervised)  
+2017-18, Claire Evers, MSc (co-supervised)  
+
+PhD students mentored under The Bryden Centre Doctoral Training Program 2020-2021
+---------------------------------
+Natalie Issakson (Environmental Research Institute), Inne Withouck (NAFC Marine Centre), Morag Cooper (Inverness College), Rowland Fraser (Inverness College), Monika Kosecka (Scottish Association for Marine Science),
