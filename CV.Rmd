@@ -51,14 +51,14 @@ tribble(
   ~ degree, ~ uni, ~loc, ~ dates, ~ details,
   "PhD", "Univeristy of St Andrews", "St Andrews, Scotland", "Nov. 2015 - Jan. 2020",
    "Thesis Title: 'Movement Ecology of seals in a tidally energetic environment: Implications for interactions with tidal energy devices'",
-  "MRes", "University of St Andrews", "St Andrews, Scotland", "Sep. 2012 - Aug. 2012",  
+  "MRes", "University of St Andrews", "St Andrews, Scotland", "Sep. 2011 - Aug. 2012",  
     "Thesis Title: ‘A validated step-wise approach to drift-dive classification using high resolution accelerometery data’",
   "BSc (Hons)", "University of Southampton", "Southampton, England", "Sep. 2006 - Sep. 2010",
-   "Marine Biology and Oceanography. Thesis Title: The effects of the toxic dinoflagellate, Coolia monotis, on respiration rate and survival of brine shrimp") %>% 
-  detailed_entries(degree, dates, uni, loc, details)
+   "Marine Biology and Oceanography. Thesis Title: 'The effects of the toxic dinoflagellate, \\textit{Coolia monotis}, on respiration rate and survival of brine shrimp'") %>% 
+  detailed_entries(degree, dates, uni, loc, details, .protect=FALSE)
 ```
 
-\faIcon{university} Academic History
+\faIcon{university} Relevant Employment
 ============================
 ```{r}
 tribble(
@@ -68,16 +68,16 @@ tribble(
          "Providing analytical, administrative and project focussed support and mentoring to PhD students.",
          "Using animal movement data to help refine estimates of collision risk between marine mammals and tidal turbines."),
    "Lecturer", "University of St Andrews", "St Andrews, Scotland", "Sep. 2019 - present", 
-    list("Guest lecturer in marine animal movement and spatial analysis - BL5110", "Develop and lead lab practicals on the use of R to quantify movement behaviour using telemetry data - BL5122", "Demonstrate for lab practicals on quantitative methods in ecology and GIS for ecologists - BL5110"),
+    list("Guest lecturer in marine animal movement and spatial analysis - BL5110", "Developing and leading lab practicals on the use of R to quantify movement behaviour using telemetry data - BL5122", "Demonstrating for lab practicals on quantitative methods in ecology and GIS for ecologists - BL5110"),
   "Post-doctoral researcher", "University of St Andrews", "St Andrews, Scotland", "Jan. 2020 - Apr. 2020", 
     list("Supporting delivery of the Marine Scotland Scientific Support Programme through dissemination of spatial analysis to Scottish ministers",
-         "Providing consultation on collisin risk and impact of operational tidal turbine arrays"),
+         "Providing consultation on collision risk and impact of operational tidal turbine arrays"),
   "Post-graduate research assistant", "University of St Andrews", "St Andrews, Scotland", "Sep. 2014 - Nov. 2016", 
     list("Quantifying the spatial overlap between seals and shipping traffic in the Moray Firth, Scotland.",
-         "Used teemetry data and AIS monitoring to predict seal and shipping distribution across the study site, scaled the seal predictions using    aerial survey count data at individual haul-outs and produced hot-spots of interest where seal-shipping overlap appeared to present a potential risk to local populations."),
+         "Using telemetry data and AIS monitoring to predict seal and shipping distribution across the study site, scaling the seal predictions with aerial survey count data at individual haul-outs and estaimting hot-spots of interest where seal-shipping overlap appeared to present a potential risk to local populations."),
    "Post-graduate research assistant", "University of St Andrews", "St Andrews, Scotland", "Apr. 2013 - Nov. 2014", 
     list("Investigating unusual mortality events (“Corkscrew Lesions”) in seals around the UK.",
-         "Curated databases of seal stranding cases around the Scottish coast.", "Designed and conducted experiments to test the hypothetical link between corkscrew lesions and ship propellers.", "Led the investigation into grey seals as a potential source of unusual mortality events in seals using pathological analyses, telemetry data and recorded behavioural data"
+         "Curating databases of seal stranding cases around the Scottish coast.", "Designing and conducting experiments to test the hypothetical link between corkscrew lesions and ship propellers.", "Leading the investigation into grey seals as a potential source of unusual mortality events in seals using pathological analyses, telemetry data and recorded behavioural data"
          )
   # "Data mining intern", "iSelect", "Cheltenham, Australia", "Feb. 2015 - Mar. 2015", "Improved business reporting with interactive visualisations, and model-based anomaly detection.",
 ) %>% 
@@ -92,24 +92,24 @@ For a complete list of publications and reports see [*my Google Scholar profile*
 ```{r pubs}
 tribble(
   ~ name, ~ journal, ~ date, ~type, ~ bib,
-  "Quantifying the effects of tidal turbine array operations on the distribution of marine mammals: implications for collision risk and spatial    planning", "Renewable Energy", "~2021", "Journal Article", 
+  "Quantifying the effects of tidal turbine array operations on the distribution of marine mammals: implications for collision risk and spatial planning", "Renewable Energy", "~2021", "Journal Article", 
   "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., Hastie, G. Renewable Energy. \\textit{in revision}",
   
     "Foraging in dynamic habitats: the importance of considering flow in animal movement analyses", "Functional Ecology", "~2021", "Journal Article", "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., O'Hara Muraye, R., Hastie, G. Functional Ecology. \\textit{in review}",
   
-     "Empirical determination of severe trauma in seals from collisions with tidal turbine blades", "Journal of Applied Ecology", "01, 2019", "Journal Article", 
+     "Empirical determination of severe trauma in seals from collisions with tidal turbine blades", "Journal of Applied Ecology", "Jan. 2019", "Journal Article", 
   "\\textbf{Onoufriou, J.}, Brownlow, A, Moss, S, Hastie, G, Thompson, D. Empirical determination of severe trauma in seals from collisions with tidal turbine blades. J Appl Ecol. 2019; 56: 1712– 1724. https://doi.org/10.1111/1365-2664.13388",
   
-     "Seals and shipping: quantifying population risk and individual exposure to vessel noise", "Journal of Applied Ecology", "04, 2017", "Journal Article", 
+     "Seals and shipping: quantifying population risk and individual exposure to vessel noise", "Journal of Applied Ecology", "Apr. 2017", "Journal Article", 
   "Jones, E.L., Hastie, G.D., Smout, S., \\textbf{Onoufriou, J.}, Merchant, N.D., Brookes, K.L. and Thompson, D. Seals and shipping: quantifying population risk and individual exposure to vessel noise. J Appl Ecol, 54: 1930-1940. https://doi.org/10.1111/1365-2664.12911",
   
-   "Corkscrew Seals: Grey Seal (Halichoerus grypus) infanticide and cannibalism may indicate the cause of spiral lacerations in seals", "PLOS ONE", "06, 2016", "Journal Article", 
-  "Brownlow A, \\textbf{Onoufriou, J.}, Bishop A, Davison N, Thompson D. Corkscrew Seals: Grey Seal (Halichoerus grypus) Infanticide and Cannibalism May Indicate the Cause of Spiral Lacerations in Seals. PLOS ONE 11(6): e0156464. https://doi.org/10.1371/journal.pone.0156464",
+   "Corkscrew Seals: Grey Seal (\\textit{Halichoerus grypus}) infanticide and cannibalism may indicate the cause of spiral lacerations in seals", "PLOS ONE", "Jun. 2016", "Journal Article", 
+  "Brownlow A, \\textbf{Onoufriou, J.}, Bishop A, Davison N, Thompson D. Corkscrew Seals: Grey Seal (\\textit{Halichoerus grypus}) Infanticide and Cannibalism May Indicate the Cause of Spiral Lacerations in Seals. PLOS ONE 11(6): e0156464. https://doi.org/10.1371/journal.pone.0156464",
 
-   "Cannibalism by a male grey seal (Halichoerus grypus) in the North Sea", "Aquatic Mammals", "06, 2016", "Journal Article", 
-  "Bishop, A. M., \\textbf{Onoufriou, J.}, Moss, S, Pomeroy, P, Twiss, S.D. Cannibalism by a male grey seal (Halichoerus grypus) in the North Sea. Aquatic Mammals: Vol. 42, Iss. 2. 137-143. DOI:10.1578/AM.42.2.2016.137",
+   "Cannibalism by a male grey seal (Halichoerus grypus) in the North Sea", "Aquatic Mammals", "Jun. 2016", "Journal Article", 
+  "Bishop, A. M., \\textbf{Onoufriou, J.}, Moss, S, Pomeroy, P, Twiss, S.D. Cannibalism by a male grey seal (\\textit{Halichoerus grypus}) in the North Sea. Aquatic Mammals: Vol. 42, Iss. 2. 137-143. DOI:10.1578/AM.42.2.2016.137",
   
-  "Investigations into the interactions between harbour seals (Phoca vitulina) and vessels in the inner Moray Firth", "Scottish Marine and Freshwater Science", "03, 2016", "Government Report", 
+  "Investigations into the interactions between harbour seals (textit{Phoca vitulina}) and vessels in the inner Moray Firth", "Scottish Marine and Freshwater Science", "Mar. 2016", "Government Report", 
   "\\textbf{Onoufriou, J.}, Jones, E., Hastie, G. Thompson, D. Investigations into the interactions between harbour seals (Phoca vitulina) and vessels in the inner Moray Firth. Scottish marine and freshwater science: 7(15). DOI: 10.7489/1805-1"
   ) %>% 
  
@@ -163,7 +163,7 @@ Experienced small-boat operator - RYA Power Boat level 2
 MCA approved sea-survival
 
 
-\faIcon{comments} Contributed presentations
+\faIcon{comments} Conference presentations and workshops
 ================================
 
 ```{r pres}
