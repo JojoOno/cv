@@ -93,7 +93,7 @@ For a complete list of publications and reports see [*my Google Scholar profile*
 tribble(
   ~ name, ~ journal, ~ date, ~type, ~ bib,
   "Quantifying the effects of tidal turbine array operations on the distribution of marine mammals: implications for collision risk and spatial planning", "Renewable Energy", "~2021", "Journal Article", 
-  "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., Hastie, G. Renewable Energy. \\textit{in revision}",
+  "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., Hastie, G. Renewable Energy. \\textit{revisions submitted}",
   
     "Foraging in dynamic habitats: the importance of considering flow in animal movement analyses", "Functional Ecology", "~2021", "Journal Article", "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., O'Hara Muraye, R., Hastie, G. Functional Ecology. \\textit{in review}",
   
@@ -156,6 +156,8 @@ State-space models and hidden Markov models (HMMs) as tools for inferring animal
 
 8 years experience of capture, handling and tag attachment of phocid seals (grey and harbour seals).
 
+3 years experience as an aerial survey technician for breeding and moulting surveys of UK phocid seals (grey and harbour seals).
+
 2 field seasons assisting capture and handling of seabirds (puffins and shags) on a breeding colony.
 
 Experienced small-boat operator - RYA Power Boat level 2
@@ -215,4 +217,15 @@ Supervised/advised
 
 PhD students mentored under The Bryden Centre Doctoral Training Program 2020-2021
 ---------------------------------
-Natalie Issakson (Environmental Research Institute), Inne Withouck (NAFC Marine Centre), Morag Cooper (Inverness College), Rowland Fraser (Inverness College), Monika Kosecka (Scottish Association for Marine Science),
+Natalie Issakson (Environmental Research Institute), Inne Withouck (NAFC Marine Centre), Morag Cooper (Inverness College), Rowland Fraser (Inverness College), Monika Kosecka (Scottish Association for Marine Science)
+
+\faIcon{suitcase} Professional service
+================================
+
+Reviewer for Scientific Journals
+---------------------------------
+International Marine Energy Journal, Scientific Reports, Aquatic Conservation, PLOS One, Journal of Marine Science and Engineering 
+
+Editorial positions
+---------------------------------
+Review editor: Frontiers in Physiology (physio-logging)
