@@ -1,5 +1,5 @@
 ---
-name: Joe Onoufriou
+name: Dr. Joe Onoufriou
 qualifications: BSc, MRes, PhD
 position: "Post-Doctoral Researcher"
 address: "Scottish Association for Marine Science"
@@ -35,11 +35,9 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 \faIcon{lightbulb} Research Interests
 ============================
 
-An ecologist with extensive field and analytical experience, particularly in predator foraging ecology, oceanographic interactions with marine megafauna and effects of renewable energy installations on distribution and fitness. Experienced in academia and collaborating with industry and policy stakeholders, resulting in a high level of competency producing science which is robust, defensible and communicable to a wide audience. 
+An applied ecologist with extensive field and analytical experience, particularly in predator foraging ecology, oceanographiy and effects of renewable energy installations on population distributions and individual fitness. Experienced in academia and collaborating with industry and policy stakeholders, resulting in a high level of competency producing science which is robust, defensible and communicable to a wide audience. 
 
-* Spatial and movement statistics 
-* Applied ecology
-* Marine mammal ecology and pathology
+Key Words: Spatial and movement statistics; applied ecology; marine mammal ecology and pathology
 
 
 \faIcon{graduation-cap} Education
@@ -50,11 +48,11 @@ library(tibble)
 tribble(
   ~ degree, ~ uni, ~loc, ~ dates, ~ details,
   "PhD", "Univeristy of St Andrews", "St Andrews, Scotland", "Nov. 2015 - Jan. 2020",
-   "Thesis Title: 'Movement Ecology of seals in a tidally energetic environment: Implications for interactions with tidal energy devices'",
+   "Thesis title: 'Movement Ecology of seals in a tidally energetic environment: Implications for interactions with tidal energy devices'",
   "MRes", "University of St Andrews", "St Andrews, Scotland", "Sep. 2011 - Aug. 2012",  
-    "Thesis Title: ‘A validated step-wise approach to drift-dive classification using high resolution accelerometery data’",
+    "Thesis title: ‘A validated step-wise approach to drift-dive classification using high resolution accelerometery data’",
   "BSc (Hons)", "University of Southampton", "Southampton, England", "Sep. 2006 - Sep. 2010",
-   "Marine Biology and Oceanography. Thesis Title: 'The effects of the toxic dinoflagellate, \\textit{Coolia monotis}, on respiration rate and survival of brine shrimp'") %>% 
+   "Marine Biology and Oceanography. Thesis title: 'The effects of the toxic dinoflagellate, \\textit{Coolia monotis}, on respiration rate and survival of brine shrimp'") %>% 
   detailed_entries(degree, dates, uni, loc, details, .protect=FALSE)
 ```
 
@@ -67,14 +65,14 @@ tribble(
     list("Investigating the effects of tidal turbine sound exposure on seal movement and distribution.",
          "Providing analytical, administrative and project focussed support and mentoring to PhD students.",
          "Using animal movement data to help refine estimates of collision risk between marine mammals and tidal turbines."),
-   "Lecturer", "University of St Andrews", "St Andrews, Scotland", "Sep. 2019 - present", 
-    list("Guest lecturer in marine animal movement and spatial analysis - BL5110", "Developing and leading lab practicals on the use of R to quantify movement behaviour using telemetry data - BL5122", "Demonstrating for lab practicals on quantitative methods in ecology and GIS for ecologists - BL5110"),
+   "Tutor and lecturer", "University of St Andrews", "St Andrews, Scotland", "Sep. 2019 - present", 
+    list("Guest lecturer in marine animal movement and spatial analysis (2 lectures per semester) - BL5110", "Developing and leading lab practicals on the use of R to quantify movement behaviour using telemetry data - BL5122", "Demonstrating for lab practicals on quantitative methods in ecology and GIS for ecologists - BL5110"),
   "Post-doctoral researcher", "University of St Andrews", "St Andrews, Scotland", "Jan. 2020 - Apr. 2020", 
     list("Supporting delivery of the Marine Scotland Scientific Support Programme through dissemination of spatial analysis to Scottish ministers",
          "Providing consultation on collision risk and impact of operational tidal turbine arrays"),
   "Post-graduate research assistant", "University of St Andrews", "St Andrews, Scotland", "Sep. 2014 - Nov. 2016", 
     list("Quantifying the spatial overlap between seals and shipping traffic in the Moray Firth, Scotland.",
-         "Using telemetry data and AIS monitoring to predict seal and shipping distribution across the study site, scaling the seal predictions with aerial survey count data at individual haul-outs and estaimting hot-spots of interest where seal-shipping overlap appeared to present a potential risk to local populations."),
+         "Using telemetry data and AIS monitoring to predict seal and shipping distribution across the study site, scaling the seal predictions with aerial survey count data at individual haul-outs and estimating hot-spots of interest where seal-shipping overlap appeared to present a potential risk to local populations."),
    "Post-graduate research assistant", "University of St Andrews", "St Andrews, Scotland", "Apr. 2013 - Nov. 2014", 
     list("Investigating unusual mortality events (“Corkscrew Lesions”) in seals around the UK.",
          "Curating databases of seal stranding cases around the Scottish coast.", "Designing and conducting experiments to test the hypothetical link between corkscrew lesions and ship propellers.", "Leading the investigation into grey seals as a potential source of unusual mortality events in seals using pathological analyses, telemetry data and recorded behavioural data"
@@ -87,7 +85,7 @@ tribble(
 \faIcon{book} Selected Publications
 ============================
 
-For a complete list of publications and reports see [*my Google Scholar profile*](https://scholar.google.com/citations?hl=en&user=bh4T-04AAAAJ).
+For a complete list of publications and reports see [*my Google Scholar profile (link)*](https://scholar.google.com/citations?hl=en&user=bh4T-04AAAAJ).
 
 ```{r pubs}
 tribble(
@@ -106,11 +104,15 @@ tribble(
    "Corkscrew Seals: Grey Seal (\\textit{Halichoerus grypus}) infanticide and cannibalism may indicate the cause of spiral lacerations in seals", "PLOS ONE", "Jun. 2016", "Journal Article", 
   "Brownlow A, \\textbf{Onoufriou, J.}, Bishop A, Davison N, Thompson D. Corkscrew Seals: Grey Seal (\\textit{Halichoerus grypus}) Infanticide and Cannibalism May Indicate the Cause of Spiral Lacerations in Seals. PLOS ONE 11(6): e0156464. https://doi.org/10.1371/journal.pone.0156464",
 
-   "Cannibalism by a male grey seal (Halichoerus grypus) in the North Sea", "Aquatic Mammals", "Jun. 2016", "Journal Article", 
+   "Cannibalism by a male grey seal (\\textit{Halichoerus grypus}) in the North Sea", "Aquatic Mammals", "Jun. 2016", "Journal Article", 
   "Bishop, A. M., \\textbf{Onoufriou, J.}, Moss, S, Pomeroy, P, Twiss, S.D. Cannibalism by a male grey seal (\\textit{Halichoerus grypus}) in the North Sea. Aquatic Mammals: Vol. 42, Iss. 2. 137-143. DOI:10.1578/AM.42.2.2016.137",
   
-  "Investigations into the interactions between harbour seals (textit{Phoca vitulina}) and vessels in the inner Moray Firth", "Scottish Marine and Freshwater Science", "Mar. 2016", "Government Report", 
-  "\\textbf{Onoufriou, J.}, Jones, E., Hastie, G. Thompson, D. Investigations into the interactions between harbour seals (Phoca vitulina) and vessels in the inner Moray Firth. Scottish marine and freshwater science: 7(15). DOI: 10.7489/1805-1"
+  "Investigations into the interactions between harbour seals (\\textit{Phoca vitulina}) and vessels in the inner Moray Firth", "Scottish Marine and Freshwater Science", "Mar. 2016", "Government Report", 
+  "\\textbf{Onoufriou, J.}, Jones, E., Hastie, G. Thompson, D. Investigations into the interactions between harbour seals (Phoca vitulina) and vessels in the inner Moray Firth. Scottish marine and freshwater science: 7(15). DOI: 10.7489/1805-1",
+  
+  "Testing the hypothetical link between shipping and unexplained seal deaths", "Marine Scotland Scientific Support Reserach Programme", "Mar. 2016", "Government Report", 
+  "\\textbf{Onoufriou, J.}, Thompson, D., Brownlow, A. Testing the hypothetical link between shipping and unexplained seal deaths. MMS/001/11-USD2. http://www.smru.st-and.ac.uk/documents/1926.pdf"
+  
   ) %>% 
  
   detailed_entries(with = name, what = journal, when = date, where = type, why = bib, .protect=FALSE)
@@ -120,8 +122,6 @@ tribble(
 
 \faIcon{wrench} Skills
 ================================
-
-\smallskip
 
 \faIcon{laptop} Software and Programming  
 ---------------------------------
@@ -141,17 +141,17 @@ tribble(
   row_spec(1, bold = F, color = "#7f7f7f") %>% 
   column_spec(column = 1:4, width = '3.75cm')
 ```
-\smallskip
 
-\faIcon{chart-bar} Statistics 
+\faIcon{chart-bar} Statistics
 ---------------------------------
 
 Linear regression and extensions including mixed effects models, generalised additive models (GAM) and generalised estimating equations (GEE) applied to species distribution, habitat preference and animal behaviour analyses.
 
-State-space models and hidden Markov models (HMMs) as tools for inferring animal behaviour in discrete and continous time including assessing biotic and abiotic covariate effects on state transitions and discrete behaviours, and establishing environmental drivers of movement to generate informative data-streams.
-\smallskip
+State-space models and hidden Markov models (HMMs) as tools for inferring animal behaviour in discrete and continous time including assessing biotic and abiotic covariate effects on state transitions and discrete behaviours, and establishing environmental drivers of movement to generate informative data-streams.\  
+  
+&nbsp; 
 
-\faIcon{leaf} Fieldwork 
+\faIcon{leaf} Fieldwork
 ---------------------------------
 
 8 years experience of capture, handling and tag attachment of phocid seals (grey and harbour seals).
@@ -160,9 +160,9 @@ State-space models and hidden Markov models (HMMs) as tools for inferring animal
 
 2 field seasons assisting capture and handling of seabirds (puffins and shags) on a breeding colony.
 
-Experienced small-boat operator - RYA Power Boat level 2
+Experienced small-boat operator - Royal Yacht Association (RYA) Power Boat level 2
 
-MCA approved sea-survival
+Marine and Coastguard Agency (MCA) approved sea-survival
 
 
 \faIcon{comments} Conference presentations and workshops
@@ -203,14 +203,14 @@ tribble(
 
 ```
 
-
+\newpage
 
 \faIcon{users} Students
 ================================
 
 Supervised/advised 
 ---------------------------------
-2020-21 Charlotte Findlay, PhD (advised)  
+2020-21 Charlotte Findlay, PhD (co-supervised)  
 2019-20 Tierney Carter, MSc (co-supervised)  
 2018-19 Laura Palmer, MSc (co-supervised)  
 2017-18, Claire Evers, MSc (co-supervised)  
