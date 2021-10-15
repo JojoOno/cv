@@ -90,12 +90,12 @@ For a complete list of publications and reports see [*my Google Scholar profile 
 ```{r pubs}
 tribble(
   ~ name, ~ journal, ~ date, ~type, ~ bib,
-  "Quantifying the effects of tidal turbine array operations on the distribution of marine mammals: implications for collision risk and spatial planning", "Renewable Energy", "~2021", "Journal Article", 
-  "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., Hastie, G. Renewable Energy. \\textit{revisions submitted}",
+    "Foraging in dynamic habitats: the importance of considering flow in animal movement analyses", "Functional Ecology", "~2021", "Journal Article", "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., O'Hara Muraye, R.,        Hastie, G. Functional Ecology. https://doi.org/10.1016/j.renene.2021.08.052",
   
-    "Foraging in dynamic habitats: the importance of considering flow in animal movement analyses", "Functional Ecology", "~2021", "Journal Article", "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., O'Hara Muraye, R., Hastie, G. Functional Ecology. \\textit{in review}",
+    "Quantifying the effects of tidal turbine array operations on the distribution of marine mammals: implications for collision risk and spatial planning", "Renewable Energy", "Aug. 2021", "Journal Article", 
+   "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., Hastie, G. Renewable Energy. 2021; 180: 157-165y.",
   
-     "Empirical determination of severe trauma in seals from collisions with tidal turbine blades", "Journal of Applied Ecology", "Jan. 2019", "Journal Article", 
+    "Empirical determination of severe trauma in seals from collisions with tidal turbine blades", "Journal of Applied Ecology", "Jan. 2019", "Journal Article", 
   "\\textbf{Onoufriou, J.}, Brownlow, A, Moss, S, Hastie, G, Thompson, D. Empirical determination of severe trauma in seals from collisions with tidal turbine blades. J Appl Ecol. 2019; 56: 1712– 1724. https://doi.org/10.1111/1365-2664.13388",
   
      "Seals and shipping: quantifying population risk and individual exposure to vessel noise", "Journal of Applied Ecology", "Apr. 2017", "Journal Article", 
