@@ -1,5 +1,5 @@
 ---
-name: Dr. Joe Onoufriou
+name: Dr. Joseph Onoufriou
 qualifications: BSc, MRes, PhD
 position: "Post-Doctoral Researcher"
 address: "Scottish Association for Marine Science"
@@ -29,13 +29,15 @@ library(tidyverse)
 library(fontawesome)
 library(emojifont)
 library(kableExtra)
+library(tinytex)
+options(tinytex.verbose = TRUE)
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 ```
 
 \faIcon{lightbulb} Research Interests
 ============================
 
-An applied ecologist with extensive field and analytical experience, particularly in predator foraging ecology, oceanographiy and effects of renewable energy installations on population distributions and individual fitness. Experienced in academia and collaborating with industry and policy stakeholders, resulting in a high level of competency producing science which is robust, defensible and communicable to a wide audience. 
+An applied ecologist with extensive field and analytical experience, particularly in predator foraging ecology, oceanography and effects of renewable energy installations on population distributions and individual fitness. Experienced in academia and collaborating with industry and policy stakeholders, resulting in a high level of competency producing science which is robust, defensible and communicable to a wide audience. 
 
 Key Words: Spatial and movement statistics; applied ecology; marine mammal ecology and pathology
 
@@ -90,10 +92,10 @@ For a complete list of publications and reports see [*my Google Scholar profile 
 ```{r pubs}
 tribble(
   ~ name, ~ journal, ~ date, ~type, ~ bib,
-    "Foraging in dynamic habitats: the importance of considering flow in animal movement analyses", "Functional Ecology", "~2021", "Journal Article", "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., O'Hara Muraye, R.,        Hastie, G. Functional Ecology. https://doi.org/10.1016/j.renene.2021.08.052",
+    "Foraging in dynamic habitats: the importance of considering flow in animal movement analyses", "Functional Ecology", "~in review", "Journal Article", "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., O'Hara Muraye, R.,        Hastie, G. Functional Ecology.",
   
     "Quantifying the effects of tidal turbine array operations on the distribution of marine mammals: implications for collision risk and spatial planning", "Renewable Energy", "Aug. 2021", "Journal Article", 
-   "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., Hastie, G. Renewable Energy. 2021; 180: 157-165y.",
+   "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., Hastie, G. Renewable Energy. 2021; 180: 157-165y.https://doi.org/10.1016/j.renene.2021.08.052",
   
     "Empirical determination of severe trauma in seals from collisions with tidal turbine blades", "Journal of Applied Ecology", "Jan. 2019", "Journal Article", 
   "\\textbf{Onoufriou, J.}, Brownlow, A, Moss, S, Hastie, G, Thompson, D. Empirical determination of severe trauma in seals from collisions with tidal turbine blades. J Appl Ecol. 2019; 56: 1712– 1724. https://doi.org/10.1111/1365-2664.13388",
@@ -120,7 +122,7 @@ tribble(
 ```
 
 
-\faIcon{wrench} Skills
+\faIcon{wrench} Technical Skills
 ================================
 
 \faIcon{laptop} Software and Programming  
@@ -171,6 +173,7 @@ Marine and Coastguard Agency (MCA) approved sea-survival
 ```{r pres}
 tribble(
   ~ name, ~ title, ~ conference, ~year, ~ presentation,
+  "Onoufriou, J., Russell, D.J.F, Thompson, D. Moss, S.E. & Hastie, G.", "Harbour seal (\\textit{Phoca vitulina}) diving behaviour is dependent on flow speed in a tidal stream environment", "The 7th International Bio-Logging Science Symposium. Online.", "2021", "Oral Presentation",
   
   "Onoufriou, J., Russell, D.J.F, Thompson, D. Moss, S.E. & Hastie, G.", "Variable diving behaviour of seals in tidally energetic channels", "MASTS: Marine Alliance for Science and Technology forum. Online.", "2021", "Oral Presentation",
   
@@ -203,8 +206,6 @@ tribble(
 
 ```
 
-\newpage
-
 \faIcon{users} Students
 ================================
 
@@ -224,7 +225,7 @@ Natalie Issakson (Environmental Research Institute), Inne Withouck (NAFC Marine 
 
 Reviewer for Scientific Journals
 ---------------------------------
-International Marine Energy Journal, Scientific Reports, Aquatic Conservation, PLOS One, Journal of Marine Science and Engineering 
+Journal of the Marine Biological Association of the UK, International Marine Energy Journal, Scientific Reports, Aquatic Conservation, PLOS One, Journal of Marine Science and Engineering 
 
 Editorial positions
 ---------------------------------
