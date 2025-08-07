@@ -1,0 +1,301 @@
+---
+name: Dr. Joseph Onoufriou
+qualifications: BSc, MRes, PhD
+position: "Quantitative and Field Ecologist"
+address: "11155 Kelowna Road, Unit 58, San Diego, CA, 92126"
+phone: +1 (858)226 7673
+email: "jojo.onoufriou@gmail.com"
+twitter: JojoOnoufriou
+github: JojoOno
+orcid: 0000-0001-5509-9667
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 009ACD
+output: 
+  vitae::awesomecv:
+    keep_tex: false
+header-includes:
+  \usepackage{float}
+  \usepackage{multicol}
+  \usepackage{colortbl}
+  \arrayrulecolor{white}
+  \usepackage{hhline}
+  \definecolor{light-gray}{gray}{0.95}
+  \usepackage{microtype}
+  \linespread{1.1}
+  \usepackage{parskip}
+
+---
+
+```{r setup, include=FALSE}
+library(vitae)
+library(tidyverse)
+library(fontawesome)
+library(emojifont)
+library(kableExtra)
+library(tinytex)
+options(tinytex.verbose = TRUE)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
+
+\faIcon{lightbulb} Research Interests
+============================
+
+I am a highly experienced wildlife ecologist with over a decade of applied research, field monitoring, and regulatory advisory experience across academic, governmental, and consulting contexts. My work has included extensive field deployment for wildlife surveys—both marine and terrestrial, including nesting bird surveys, aerial population counts, and behavioral monitoring of protected species under disturbance. I have led and supported biological monitoring programs involving GPS- and ARGOS-based telemetry, habitat mapping, and real-time data QA/QC in coastal and remote settings.
+
+I bring advanced technical expertise in ecological statistics, including Generalized Additive Models (GAMs), Generalized Estimating Equations (GEEs), and Hidden Markov Models (HMMs) to assess habitat use, disturbance response, and movement behavior in complex landscapes. I have worked closely with statutory agencies to provide science-based guidance for wildlife permitting and mitigation, and have supported processes analogous to CEQA and NEPA through roles in UK marine energy licensing and impact assessments. Now based in Southern California, I am eager to apply this experience to on-call biological monitoring, nesting bird surveys, and regulatory compliance support under CEQA/NEPA frameworks across diverse regional habitats.
+
+Key Words: Movement ecology; marine mammals; environmental modelling; spatial statistics; renewable energy; applied conservation science
+
+
+\faIcon{graduation-cap} Education
+============================
+
+```{r}
+tribble(
+  ~ degree, ~ uni, ~loc, ~ dates, ~ details,
+  "PhD", "University of St Andrews", "St Andrews, Scotland", "Nov. 2015 - Jan. 2020", "Thesis title: 'Movement Ecology of seals in a tidally energetic environment: Implications for interactions with tidal energy devices.'\\vspace{2em}",
+  "MRes", "University of St Andrews", "St Andrews, Scotland", "Sep. 2011 - Aug. 2012", "Thesis title: ‘A validated step-wise approach to drift-dive classification using high resolution accelerometery data.'\\vspace{2em}",
+  "BSc (Hons)", "University of Southampton", "Southampton, England", "Sep. 2006 - Sep. 2010", "Marine Biology and Oceanography. Thesis title: 'The effects of the toxic dinoflagellate, \\textit{Coolia monotis}, on respiration rate and survival of brine shrimp.'\\vspace{1em}"
+) %>% 
+  detailed_entries(degree, dates, uni, loc, details, .protect = FALSE)
+```
+
+\faIcon{university} Relevant Employment
+============================
+```{r}
+tribble(
+  ~ role, ~ company, ~ loc, ~ dates, ~ details,
+  "Senior Marine Mammal Scientist", "Marine Directorate of the Scottish Government", "Aberdeen, Scotland", "Apr. 2022 - Mar. 2025", 
+    list("Providing scientific advice to licensing, policy and statutory advisors on matters relating to marine mammal consenting, impacts of renewable energy, and population dynamics; familiar with balancing conservation priorities and project delivery under statutory environmental frameworks.",
+         "Producing evidence to support advice and consenting through passive acoustic monitoring projects, and project managing government funded projects from internal and external parties.",
+         "Led field data collection and analysis to assess impacts of noise and disturbance on protected species; results used to guide mitigation and inform risk assessments",
+         "Managing a team of 5 biologists and acousticians to collect, analyze and interpret large, nationwide datasets and collaborating with industry and academic partners to ensure multi-year data collection projects run efficiently \\vspace{2em}"),
+  
+  "Post-doctoral researcher", "University of the Highlands and Islands", "Oban, Scotland", "Apr. 2020 - Apr. 2022", 
+    list("Investigating the effects of tidal turbine sound exposure on seal movement and distribution.",
+         "Providing analytical, administrative and project focussed support and mentoring to PhD students.",
+         "Conducted behavioral response monitoring of seals exposed to turbine sound; used telemetry data to infer avoidance behavior and evaluate collision risk under operational conditions.",
+         "Supported PhD students and contributed to environmental compliance documentation and reports used by marine planning agencies.",
+         "Using animal movement data to help refine estimates of collision risk between marine mammals and tidal turbines. \\vspace{2em}"),
+   
+  "Tutor and lecturer", "University of St Andrews", "St Andrews, Scotland", "Sep. 2019 - present", 
+    list("Guest lecturer in marine animal movement and spatial analysis (2 lectures per semester) - BL5110", "Developing and leading lab practicals on the use of R to quantify movement behaviour using telemetry data - BL5122", "Demonstrating for lab practicals on quantitative methods in ecology and GIS for ecologists - BL5110 \\vspace{2em}"),
+  
+  "Post-doctoral researcher", "University of St Andrews", "St Andrews, Scotland", "Jan. 2020 - Apr. 2020", 
+    list("Supporting delivery of the Marine Scotland Scientific Support Programme through dissemination of spatial analysis to Scottish ministers",
+         "Providing consultation on collision risk and impact of operational tidal turbine arrays \\vspace{2em}"),
+  
+  "Post-graduate research assistant", "University of St Andrews", "St Andrews, Scotland", "Sep. 2014 - Nov. 2016", 
+    list("Quantifying the spatial overlap between seals and shipping traffic in the Moray Firth, Scotland.",
+         "Using telemetry data and AIS monitoring to predict seal and shipping distribution across the study site, scaling the seal predictions with aerial survey count data at individual haul-outs and estimating hot-spots of interest where seal-shipping overlap appeared to present a potential risk to local populations \\vspace{2em}"),
+  
+   "Post-graduate research assistant", "University of St Andrews", "St Andrews, Scotland", "Apr. 2013 - Nov. 2014", 
+    list("Investigating unusual mortality events (“Corkscrew Lesions”) in seals around the UK.",
+         "Curating databases of seal stranding cases around the Scottish coast.", "Designing and conducting experiments to test the hypothetical link between corkscrew lesions and ship propellers.", "Leading the investigation into grey seals as a potential source of unusual mortality events in seals using pathological analyses, telemetry data and recorded behavioural data \\vspace{2em}"
+         )
+  # "Data mining intern", "iSelect", "Cheltenham, Australia", "Feb. 2015 - Mar. 2015", "Improved business reporting with interactive visualisations, and model-based anomaly detection.",
+) %>% 
+  detailed_entries(role, dates, company, loc, details)
+```
+
+\faIcon{book} Selected Publications
+============================
+
+For a complete list of publications and reports see [*my Google Scholar profile (link)*](https://scholar.google.com/citations?hl=en&user=bh4T-04AAAAJ).
+
+```{r pubs}
+tribble(
+  ~ name, ~ journal, ~ date, ~type, ~ bib,
+    "Foraging in dynamic habitats: the importance of considering flow in animal movement analyses", "Functional Ecology", "~in review", "Journal Article", "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., O'Hara Muraye, R.,        Hastie, G. Functional Ecology. \\vspace{2em}",
+  
+  "Evaluating the performance of a dual frequency multibeam echo-sounder for small target detection", "Journal of Marine Science and Engineering", "Dec. 2023", "Journal Article", "Petzinna, N. Nikora, V. \\textbf{Onoufriou, J.} and Williamson, B.J. 2023. Evaluating the performance of a dual frequency multibeam echo-sounder for small target detection Journal of Marine Science and Engineering. 11(11), p.2084. \\vspace{2em}",
+  
+   "Underwater noises of two operational tidal streamturbines: a comparison", "In: The efects of noise on aquatic life", "Sep. 2023", "Book Chapter", "Risch, D., Marmo, B., van Geel, N., Gillespie, D., Hastie, G., Sparling, C., \\textbf{Onoufriou, J.} and Wilson, B.  2023. Underwater noises of two operational tidal streamturbines: a comparison In: The effects of noise on aquatic life: Principles  and practical considerations (pp. 1-22). Cham: Springer International Publishing \\vspace{2em}",
+  
+    "Quantifying the effects of tidal turbine array operations on the distribution of marine mammals: implications for collision risk and spatial planning", "Renewable Energy", "Aug. 2021", "Journal Article", 
+   "\\textbf{Onoufriou, J.}, Russell, D.J.F., Thompson, D., Moss, S., Hastie, G. Renewable Energy. 2021; 180: 157-165y.https://doi.org/10.1016/j.renene.2021.08.052 \\vspace{2em}",
+  
+    "Empirical determination of severe trauma in seals from collisions with tidal turbine blades", "Journal of Applied Ecology", "Jan. 2019", "Journal Article", 
+  "\\textbf{Onoufriou, J.}, Brownlow, A, Moss, S, Hastie, G, Thompson, D. Empirical determination of severe trauma in seals from collisions with tidal turbine blades. J Appl Ecol. 2019; 56: 1712– 1724. https://doi.org/10.1111/1365-2664.13388 \\vspace{2em}",
+  
+     "Seals and shipping: quantifying population risk and individual exposure to vessel noise", "Journal of Applied Ecology", "Apr. 2017", "Journal Article", 
+  "Jones, E.L., Hastie, G.D., Smout, S., \\textbf{Onoufriou, J.}, Merchant, N.D., Brookes, K.L. and Thompson, D. Seals and shipping: quantifying population risk and individual exposure to vessel noise. J Appl Ecol, 54: 1930-1940. https://doi.org/10.1111/1365-2664.12911 \\vspace{2em}",
+  
+   "Corkscrew Seals: Grey Seal (\\textit{Halichoerus grypus}) infanticide and cannibalism may indicate the cause of spiral lacerations in seals", "PLOS ONE", "Jun. 2016", "Journal Article", 
+  "Brownlow A, \\textbf{Onoufriou, J.}, Bishop A, Davison N, Thompson D. Corkscrew Seals: Grey Seal (\\textit{Halichoerus grypus}) Infanticide and Cannibalism May Indicate the Cause of Spiral Lacerations in Seals. PLOS ONE 11(6): e0156464. https://doi.org/10.1371/journal.pone.0156464 \\vspace{2em}",
+
+   "Cannibalism by a male grey seal (\\textit{Halichoerus grypus}) in the North Sea", "Aquatic Mammals", "Jun. 2016", "Journal Article", 
+  "Bishop, A. M., \\textbf{Onoufriou, J.}, Moss, S, Pomeroy, P, Twiss, S.D. Cannibalism by a male grey seal (\\textit{Halichoerus grypus}) in the North Sea. Aquatic Mammals: Vol. 42, Iss. 2. 137-143. DOI:10.1578/AM.42.2.2016.137 \\vspace{2em}",
+  
+  "Investigations into the interactions between harbour seals (\\textit{Phoca vitulina}) and vessels in the inner Moray Firth", "Scottish Marine and Freshwater Science", "Mar. 2016", "Government Report", 
+  "\\textbf{Onoufriou, J.}, Jones, E., Hastie, G. Thompson, D. Investigations into the interactions between harbour seals (Phoca vitulina) and vessels in the inner Moray Firth. Scottish marine and freshwater science: 7(15). DOI: 10.7489/1805-1 \\vspace{2em}",
+  
+  "Testing the hypothetical link between shipping and unexplained seal deaths", "Marine Scotland Scientific Support Reserach Programme", "Mar. 2016", "Government Report", 
+  "\\textbf{Onoufriou, J.}, Thompson, D., Brownlow, A. Testing the hypothetical link between shipping and unexplained seal deaths. MMS/001/11-USD2. http://www.smru.st-and.ac.uk/documents/1926.pdf \\vspace{2em}"
+  
+  ) %>% 
+ 
+  detailed_entries(with = name, what = journal, when = date, where = type, why = bib, .protect=FALSE)
+
+```
+
+
+\faIcon{wrench} Technical Skills
+================================
+
+\faIcon{laptop} Software and Programming  
+---------------------------------
+
+```{r}
+tribble(
+   ~`Coding Languages`, ~Software, ~`Data Types`, ~Other,
+  "R -- SQL -- MatLab",
+  "QGIS -- ArcGIS -- Manifold -- GIMP -- Zotero -- MSOffice",
+   "GPS -- ARGOS -- TDR -- AIS -- Accelerometry",
+  "Git -- Markdown -- LaTex"
+ 
+) %>%
+  kable(booktabs = T, align = 'c', escape = F, format = "latex") %>%
+  kable_styling(full_width = F, font_size = 9, latex_options="hold_position") %>% 
+  row_spec(0, bold = T, color = "#009acd") %>% 
+  row_spec(1, bold = F, color = "#7f7f7f") %>% 
+  column_spec(column = 1:4, width = '3.75cm')
+```
+
+\faIcon{chart-bar} Statistics
+---------------------------------
+
+1. Generalised Linear Models (GLMs) & Generalised Additive Models (GAMs). 
+Used to account for non-linear relationships with complex and dynamic habitat covariates. Examples include modelling dive behaviour of seals as a complex interactive function of a suite of fine scale habitat drivers of behaviour such as diurnal patterns, tidal stream vectors of movement and bathymetric variables.
+
+2. GAMs with Generalised Estimating Equations (GEEs)
+These models were employed to handle temporal autocorrelation, typical in systematic animal observation data of the same individuals. This allowed robust estimation of population level trends while accounting for within-subject correlation. Examples include estimating behavioural response curves enabling quantification of avoidance behaviour of seals at varying distances from operational tidal turbines.
+
+3. Time-series and state-space modelling (including HMMs)
+Developed and applied unique HMMs and steta-space models to infer latent behavioural states from seal movement and dive data in areas where observed movement is intrinsically biased. These models incorporated depth, dive duration, movement speed and turning angles to probabilistically assign behavioural states at fine temporal scales. Intergrated the concept of 'hydrospace' into the data streams by combining tidal flow vectors with observed movement to infer animal swimming direction which gave rise to the observed paths, thus determining movement effort to further refine latent state inferences. In combination with environmental covariates the models provide state-dependent habitat use maps enhancing understanding of applied and pure ecological inferences.
+\  
+  
+&nbsp; 
+
+\faIcon{leaf} Fieldwork and Practical Skills
+---------------------------------
+
+8+ years’ experience in capture, handling, and tagging of pinnipeds, including GPS and accelerometry-based deployments for behavioral monitoring.
+
+Aerial survey technician for population-level seal counts during breeding and molting seasons; experience in data entry and QA/QC of visual survey data.
+
+Two field seasons conducting colony-based seabird surveys (puffins and shags); assisted in nest monitoring and capture.
+
+Proficient in GPS-based field data collection, map-based habitat recording, and spatial survey coordination using QGIS and ArcGIS.
+
+Trained and certified small boat operator (RYA Level 2); Marine Coastguard Agency (MCA) sea survival certified.
+
+Comfortable with variable work schedules and remote deployments, including under adverse weather and terrain conditions.
+
+Valid U.S. driver's license; comfortable driving in remote field settings
+
+Flexible and responsive field deployment experience, including early mornings, weekends, and short-notice mobilization.
+
+Skilled in habitat observations, wildlife behavioral monitoring, and site-based data QA/QC.
+
+
+\faIcon{comments} Conference presentations and workshops
+================================
+
+```{r conf_presentations, results='asis', echo=FALSE}
+cat("
+\\textbf{Harbour seal (\\textit{Phoca vitulina}) diving behaviour is dependent on flow speed in a tidal stream environment} \\\\
+\\textit{Oral Presentation} — Onoufriou, J., Russell, D.J.F., Thompson, D., Moss, S.E., Hastie, G. (2021) \\\\
+7th International Bio-Logging Science Symposium. Online. \\\\
+\\vspace{1em}
+
+\\textbf{Variable diving behaviour of seals in tidally energetic channels} \\\\
+\\textit{Oral Presentation} — Onoufriou, J., Russell, D.J.F., Thompson, D., Moss, S.E., Hastie, G. (2021) \\\\
+MASTS: Marine Alliance for Science and Technology Forum. Online. \\\\
+\\vspace{1em}
+
+\\textbf{Quantifying the effects of tidal turbine array operations on the distribution of marine mammals: implications for collision risk} \\\\
+\\textit{Oral Presentation} — Onoufriou, J., Russell, D.J.F., Thompson, D., Moss, S.E., Hastie, G. (2020) \\\\
+EIMR: Environmental Interactions of Marine Renewable Energy Technologies. Online. \\\\
+\\vspace{1em}
+
+\\textbf{Overt avoidance behaviour of seals in response to tidal turbine array operations} \\\\
+\\textit{Oral Presentation} — Onoufriou, J., Russell, D.J.F., Thompson, D., Moss, S.E., Hastie, G. (2020) \\\\
+ScotMER Symposium, Marine Scotland. Online. \\\\
+\\vspace{1em}
+
+\\textbf{Foraging in dynamic habitats: the importance of considering flow in animal movement analyses} \\\\
+\\textit{Speed Talk} — Onoufriou, J., Russell, D.J.F., Thompson, D., O’Hara Murray, R., Moss, S., Hastie, G. (2019) \\\\
+World Marine Mammal Conference. Barcelona, Spain. \\\\
+\\vspace{1em}
+
+\\textbf{Foraging plasticity and extrinsic drivers of activity budgets in a tidally energetic system} \\\\
+\\textit{Invited Talk} — Onoufriou, J., Russell, D.J.F., Thompson, D., O’Hara Murray, R., Moss, S., Hastie, G. (2019) \\\\
+SEECC 2019: Scottish Ecology, Environment and Conservation Conference. Glasgow, UK. \\\\
+\\vspace{1em}
+
+\\textbf{Empirical determination of severe trauma in seals from collisions with tidal turbine blades} \\\\
+\\textit{Invited Talk} — Onoufriou, J., Brownlow, A., Moss, S., Hastie, G., Thompson, D. (2019) \\\\
+ScotMER Symposium, Marine Scotland. \\\\
+\\vspace{1em}
+
+\\textbf{Empirical determination of severe trauma in seals from collisions with tidal turbine blades} \\\\
+\\textit{Poster} — Onoufriou, J., Brownlow, A., Moss, S., Hastie, G., Thompson, D. (2019) \\\\
+SIMC: Scotland’s International Marine Conference. \\\\
+\\vspace{1em}
+
+\\textbf{Experimental determination of a mortality threshold for collisions between marine megafauna and tidal turbines} \\\\
+\\textit{Oral Presentation} — Onoufriou, J., Thompson, D., Brownlow, A., Sparling, C., Hastie, G. (2018) \\\\
+EIMR: Environmental Interactions of Marine Renewable Energy Technologies. \\\\
+\\vspace{1em}
+
+\\textbf{Seal collision trials and fine-scale tracking around an operating turbine array} \\\\
+\\textit{Invited Talk} — Onoufriou, J., Evers, C., Thompson, D., Brownlow, A., Hastie, G. (2017) \\\\
+Workshop on Environmental Impacts of Tidal Energy Industry: 22nd Biennial Conference for the Society of Marine Mammalogy. Halifax, NS. \\\\
+\\vspace{1em}
+
+\\textbf{Corkscrew seals: grey seal infanticide and cannibalism may indicate the cause of spiral lacerations in seals} \\\\
+\\textit{Workshop Coordinator} — Onoufriou, J., Brownlow, A., Moss, S., Hastie, G., Thompson, D. (2015) \\\\
+21st Biennial Conference for the Society of Marine Mammalogy. San Francisco, CA. \\\\
+\\vspace{1em}
+
+\\textbf{Unravelling the mystery of corkscrew seals} \\\\
+\\textit{Workshop Coordinator} — Onoufriou, J., Brownlow, A., Thompson, D. (2015) \\\\
+UKIRSCSMM: UK and Ireland Student Chapter of the Society of Marine Mammalogy Conference. Bangor, UK. \\\\
+\\vspace{1em}
+
+\\textbf{A validated, step-wise approach to drift-dive classification using high resolution accelerometery} \\\\
+\\textit{Oral Presentation} — Onoufriou, J., Fedak, M., Thompson, D. (2013) \\\\
+20th Biennial Conference for the Society of Marine Mammalogy. Dunedin, NZ. \\\\
+\\vspace{1em}
+")
+```
+
+\faIcon{users} Students
+================================
+
+Supervised/advised 
+---------------------------------
+2023-25 Sophie Smith, PhD (co-supervised)
+2022-25 Nicholas Petzina, PhD (co-supervised)
+2022-25 Tim Awbery, PhD (co-supervised)
+2022-25 Julia Sutherland, PhD (co-supervised)
+2020-22 Charlotte Findlay, PhD (co-supervised)  
+2019-20 Tierney Carter, MSc (co-supervised)  
+2018-19 Laura Palmer, MSc (co-supervised)  
+2017-18, Claire Evers, MSc (co-supervised)  
+
+PhD students mentored under The Bryden Centre Doctoral Training Program 2020-2021
+---------------------------------
+Natalie Issakson (Environmental Research Institute), Inne Withouck (NAFC Marine Centre), Morag Cooper (Inverness College), Rowland Fraser (Inverness College), Monika Kosecka (Scottish Association for Marine Science)
+
+\faIcon{suitcase} Professional service
+================================
+
+Reviewer for Scientific Journals
+---------------------------------
+Journal of the Marine Biological Association of the UK, International Marine Energy Journal, Scientific Reports, Aquatic Conservation, PLOS One, Journal of Marine Science and Engineering, Renewable Energy
+
+Editorial positions
+---------------------------------
+Review editor: Frontiers in Physiology (physio-logging)
