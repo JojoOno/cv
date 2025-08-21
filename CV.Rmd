@@ -24,11 +24,11 @@ header-includes:
 \faIcon{lightbulb} Research Interests
 ============================
 
-I am an applied ecologist specializing in the spatial and behavioral ecology of marine predators, with particular expertise in pinniped movement, foraging dynamics, and anthropogenic interactions. My research integrates advanced statistical modelling, telemetry, and environmental data to quantify how physical and biological processes, especially those associated with renewable energy infrastructure, influence animal behavior, distribution, and population risk.
+I am an applied ecologist specializing in the spatial and behavioral ecology of marine predators, with particular expertise in pinniped movement, foraging dynamics, and impacts of offshore wind and tidal energy installations. My research integrates advanced statistical modelling, telemetry, and environmental data to quantify how physical and biological processes, especially those associated with renewable energy infrastructure, influence animal behavior, distribution, and population risk.
 
 I have a strong track record of translating ecological insights into practical tools for industry and policy, including collision risk modelling and impact assessments for marine energy projects. My work has focused on both single species and multi-species approaches with advanced understanding of broad marine ecosystem interactions, including seabirds, fish, benthic habitats and marine mammals, particularly relevant to offshore renewable developments. Through extensive collaboration with stakeholders, I have helped shape conservation strategies and regulatory guidance in high-conflict marine environments. My work bridges quantitative ecology, oceanography, and conservation physiology, and is underpinned by a commitment to producing robust, reproducible, and decision-relevant science. I am committed to inclusive conservation science and open to integrating Traditional Ecological Knowledge into ecological assessments, while respecting indigenous sovereignty.
 
-**Key Words:** Movement ecology; marine mammals; environmental modelling; spatial statistics; renewable energy; applied conservation science
+**Key Words:** Movement ecology; marine mammals; environmental modelling; spatial statistics; applied conservation science; offshore wind; tidal energy; impact assessment; stakeholder engagement; adaptive management
 
 \keepnlines{5}
 \faIcon{graduation-cap} Education
@@ -177,7 +177,7 @@ For a complete list of publications and reports see my Google Scholar profile (l
 
 **Supervised or advised**  
 - 2023–2025: Sophie Smith, PhD (co-supervised)  
-- 2022–2025: Nicholas Petzina, PhD (co-supervised)  
+- 2022–2025: Nicholas Petzinna, PhD (co-supervised)  
 - 2022–2025: Tim Awbery, PhD (co-supervised)  
 - 2022–2025: Julia Sutherland, PhD (co-supervised)  
 - 2020–2022: Charlotte Findlay, PhD (co-supervised)  
