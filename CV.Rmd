@@ -50,6 +50,16 @@ I have a strong track record of translating ecological insights into practical t
 \faIcon{university} Relevant Employment
 ============================
 
+\textbf{Founder and Principle Researcher} — Hydrospace Analytics \\
+\textit{San Diego, California | Aug. 2025 – Present}
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+    \item Established and operate an independent consultancy delivering quantitative ecological analyses and environmental risk assessments for renewable energy and wildlife-management clients.
+    \item Lead end-to-end delivery: scoping, methods design, budgeting/scheduling, client liaison, and production of decision-ready technical outputs.
+    \item Develop reproducible analysis workflows in R (version-controlled) and produce transparent, auditable deliverables (scripts, data dictionaries, QA/QC notes, and reporting outputs).
+    \item Integrate complex spatial and observational datasets (telemetry, environmental covariates, monitoring data) into robust statistical and geospatial models to quantify exposure, risk, and behavioural response.
+    \item Translate modelling outputs into clear figures, tables, and narrative suitable for regulators, technical stakeholders, and non-technical audiences.
+\end{itemize}
+
 \textbf{Senior Marine Mammal Scientist} — Marine Directorate of the Scottish Government \\
 \textit{Aberdeen, Scotland | Apr. 2022 – Mar. 2025}
 \begin{itemize}[leftmargin=*,itemsep=2pt]
