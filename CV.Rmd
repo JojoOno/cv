@@ -163,7 +163,7 @@ For a complete list of publications and reports see my Google Scholar profile (l
 \keepnlines{7}
 \faIcon{comments} Conferences and workshops
 ================================
-
+- **Natural Resources Wales (NRW) Collision risk data transferability workshop 2026** — Workshop organiser and chair. Online.
 - **ScotMER Symposium 2025** — Conference Chair and co-organiser. Online.  
 - **EIMR 2024** — Conference Chair and co-organiser. In Person.  
 - **Scottish Passive Acoustic Network: strategic acoustic monitoring of marine mammals and anthropogenic noise alongside renewable energy proliferation** — Oral Presentation — Onoufriou, J., Quer, S., Philpott, E., Lucas, J., Millar, H., Kosecka, M., Wilson, L., Brookes, K. (2024). ScotMER Symposium 2024. Online.  
